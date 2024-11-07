@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DreamInterpreter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f50b26924acb26edd3560d558a47d3c03f82ad81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eb624228158f3b6c8ba478cd5120018c2dce806")]
 [assembly: System.Reflection.AssemblyProductAttribute("DreamInterpreter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DreamInterpreter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
