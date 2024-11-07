@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    
+@model DreamInterpreter.Models.DreamModel
+
+<h2>Dream Interpreter</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label for="Text">Enter Your Dream:</label>
+        <input type="text" id="Text" name="Text" asp-for="Text" />
+    </div>
+    <button type="submit">Interpret</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Response))
+{
+    <div>
+        <h3>Response:</h3>
+        <p>@Model.Response</p>
+    </div>
+}
+
+
+</div>
